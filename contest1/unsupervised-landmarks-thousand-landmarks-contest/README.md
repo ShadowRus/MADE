@@ -5,6 +5,6 @@
 Количество эпох обучения 20.   
 Обучение происходило на рабочем "сервере".    
 Результат на leaderbord:     
-![Score](contest1/unsupervised-landmarks-thousand-landmarks-contest/Score.jpg)    
+![](https://github.com/ShadowRus/MADE/blob/master/contest1/unsupervised-landmarks-thousand-landmarks-contest/Score.jpg)    
 P.S. Основную проблему составило скачивание датасета, так как "застрял" на работе на Крайнем Севере с отсутствием полноценного доступа в интернет (спутниковый интернет). Возможности подключиться к AWS не было, пришлось задействовать локальную рабочую станцию. 
 
