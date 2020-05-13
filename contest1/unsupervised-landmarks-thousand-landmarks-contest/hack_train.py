@@ -1,4 +1,4 @@
-"""Script for baseline training. Model is ResNet18 (pretrained on ImageNet). Training takes ~ 15 mins (@ GTX 1080Ti)."""
+"""Script for baseline training. Model is ResNet101 (pretrained on ImageNet)."""
 
 import os
 import pickle
@@ -108,7 +108,7 @@ def main(args):
 
     print("Creating model...")
     device = torch.device("cuda: 0") if args.gpu else torch.device("cpu")
-    model = models.resnet18(pretrained=True)
+    model = models.resnet101(pretrained=True)
     model.fc = nn.Linear(model.fc.in_features, 2 * NUM_PTS, bias=True)
     model.to(device)
 
