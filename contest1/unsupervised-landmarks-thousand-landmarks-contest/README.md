@@ -7,3 +7,4 @@
 Результат на leaderbord:
 Public 9.53 Private 9.27
 P.S. Основную проблему составило скачивание датасета, так как застрял на работе на Крайнем Севере с отсутствием полноценного доступа в интернет( спутниковый интернет). Возможности подключиться к AWS не было, пришлось задействовать локальную рабочую станцию. 
+!(https://github.com/ShadowRus/MADE/edit/master/contest1/unsupervised-landmarks-thousand-landmarks-contest/Score.jpg)
